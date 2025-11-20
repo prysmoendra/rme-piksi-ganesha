@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for RME-PIKSI GANESHA */
+@layer components {
+    .btn-primary {
+        @apply bg-primary-blue text-white px-4 py-2 rounded-custom hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center gap-2;
+    }
+    
+    .btn-secondary {
+        @apply bg-secondary-gray text-white px-4 py-2 rounded-custom hover:bg-gray-700 transition-colors duration-200 flex items-center justify-center gap-2;
+    }
+    
+    .btn-ghost {
+        @apply bg-transparent border border-gray-300 text-gray-700 px-4 py-2 rounded-custom hover:bg-gray-50 hover:border-gray-400 transition-colors duration-200 flex items-center justify-center gap-2;
+    }
+    
+    .btn-link {
+        @apply text-gray-600 hover:text-gray-900 hover:underline transition-colors duration-200 flex items-center;
+    }
+    
+    .input-field {
+        @apply border border-gray-300 rounded-custom h-10 px-3 py-2 focus:ring-2 focus:ring-primary-blue focus:border-primary-blue;
+    }
+    
+    .card {
+        @apply bg-white shadow-sm-custom rounded-lg p-6;
+    }
+    
+    .sidebar-item {
+        @apply flex items-center px-4 py-3 text-gray-700 hover:bg-gray-100 transition-colors duration-200;
+    }
+    
+    .sidebar-item.active {
+        @apply bg-primary-blue text-white;
+    }
+    
+    .table-striped {
+        @apply bg-white;
+    }
+    
+    .table-striped tbody tr:nth-child(even) {
+        @apply bg-gray-50;
+    }
+    
+    .table-striped tbody tr:hover {
+        @apply bg-gray-100;
+    }
+}
