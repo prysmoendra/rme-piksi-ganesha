@@ -53,7 +53,7 @@
 
             <!-- Footer -->
             <div class="flex items-center justify-between text-sm text-blue-100">
-                <p>&copy; 2025 All Rights Reserved</p>
+                <p>&copy; 2026 All Rights Reserved</p>
                 <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
             </div>
         </div>
